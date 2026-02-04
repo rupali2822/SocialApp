@@ -1,0 +1,58 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.socialapp.ui.auth.LoginFragment" >
+
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.app.socialapp.ui.auth.SignupFragment" >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/action_signupFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <!-- MAIN -->
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.app.socialapp.ui.feed.FeedFragment" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.app.socialapp.ui.explore.ExploreFragment" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.app.socialapp.ui.map.MapFragment" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.app.socialapp.ui.camera.CameraFragment" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.socialapp.ui.profile.ProfileFragment" />
+
+
+    <action
+        android:id="@+id/action_global_feedFragment"
+        app:destination="@id/feedFragment" />
+
+
+</navigation>
