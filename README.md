@@ -27,3 +27,6 @@ Improvements with More Time
 
 ###Dashbaord Screen
 ![Dashboard Screen](https://github.com/rupali2822/SocialApp/blob/master/Screenshots/Dashbaord2.jpeg)
+
+###Profile Screen
+![Profile] (https://github.com/rupali2822/SocialApp/blob/master/Screenshots/Profile.jpeg)
