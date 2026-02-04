@@ -30,3 +30,6 @@ Improvements with More Time
 
 ###Profile Screen
 ![Profile] (https://github.com/rupali2822/SocialApp/blob/master/Screenshots/Profile.jpeg)
+
+###SignUp
+![SignUp](https://github.com/rupali2822/SocialApp/blob/master/Screenshots/Signup.jpeg)
