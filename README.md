@@ -25,6 +25,9 @@ Improvements with More Time
 ### Login Screen
 ![Login Screen](https://raw.githubusercontent.com/rupali2822/SocialApp/master/Screenshots/Login.jpeg)
 
+###Dashboard Screen
+![Dashbaord](https://github.com/rupali2822/SocialApp/blob/master/Screenshots/dashbaord.jpeg)
+
 ###Dashbaord Screen
 ![Dashboard Screen](https://github.com/rupali2822/SocialApp/blob/master/Screenshots/Dashbaord2.jpeg)
 
