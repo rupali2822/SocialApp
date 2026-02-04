@@ -23,4 +23,4 @@ Improvements with More Time
 ## Screenshots
 
 ### Login Screen
-![Login](Screenshots/login.png)
+![Login Screen](https://raw.githubusercontent.com/rupali2822/SocialApp/master/Screenshots/Login.jpeg)
